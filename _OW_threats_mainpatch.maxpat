@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 49.0, 91.0, 1790.0, 969.0 ],
+		"rect" : [ 34.0, 79.0, 1212.0, 639.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -44,8 +44,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 6.0, 656.25, 60.0 ],
-					"text" : "Known issues:\n- picture of scenario is not shown - manually show the path to it: 1) click in the center of white space, 2) press Ctrl+Shift+I, 3) find \"Image File\" line and click \"choose\".\n- \"function\" error in console - just press Reset(Q) few times and it will be ok, also remove errors with \"X\" button in console."
+					"patching_rect" : [ 10.0, 6.0, 657.0, 60.0 ],
+					"text" : "Known issues:\n- Image of scenario is not shown - manually show the path to it: 1) click in the center of white space, 2) press Ctrl+Shift+I, 3) find \"Image File\" line and click \"choose\".\n- \"function\" error in console - it is ok, just press Reset(Q) few times, also remove errors with \"X\" button in console."
 				}
 
 			}
@@ -537,7 +537,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "jit_matrix" ],
 					"patching_rect" : [ 805.25, 2152.375, 100.0, 56.25 ],
-					"pic" : "/OW_scenario.jpg",
+					"pic" : "Disk:/Petr/max_msp/_OW_threats/OW_scenario.jpg",
 					"presentation" : 1,
 					"presentation_rect" : [ 97.75, 95.40625, 501.5, 282.09375 ]
 				}
@@ -1884,7 +1884,6 @@
 									}
 ,
 									"id" : "obj-209",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -2416,7 +2415,7 @@
 					"patching_rect" : [ 291.813964000000055, 2507.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 462.75, 480.25, 50.0, 22.0 ],
-					"text" : "Healer"
+					"text" : "Tank"
 				}
 
 			}
@@ -2508,7 +2507,7 @@
 					"patching_rect" : [ 194.25, 2507.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 462.75, 456.25, 50.0, 22.0 ],
-					"text" : "DPS"
+					"text" : "Sniper"
 				}
 
 			}
@@ -2612,7 +2611,7 @@
 					"patching_rect" : [ 393.25, 2507.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 462.75, 514.0, 50.0, 22.0 ],
-					"text" : "Tank"
+					"text" : "Healer"
 				}
 
 			}
@@ -2638,7 +2637,7 @@
 					"patching_rect" : [ 82.0, 2507.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 462.75, 422.25, 50.0, 22.0 ],
-					"text" : "Sniper"
+					"text" : "DPS"
 				}
 
 			}
@@ -3438,7 +3437,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.000034356878841, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.198912389886928, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -3712,7 +3711,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.000034356878841, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.198912389886928, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -4027,7 +4026,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.999862572483824, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 1.0, -0.000000173205118, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -4959,7 +4958,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.999862572483824, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 1.0, -0.000000173205118, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -5886,7 +5885,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.000137427516176, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 1.0, 1.000000173205118, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -6160,7 +6159,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.000068713757763, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.414213613103696, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -6475,7 +6474,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.999896929363152, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.331821268130177, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -7407,7 +7406,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.999931286242237, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.585786386896304, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -10187,7 +10186,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.000137427516176, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 1.0, 1.000000173205118, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -10461,7 +10460,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 0.0, 0, 1.0, 0.000137427516176, 0 ],
+					"addpoints" : [ 0.0, 0.0, 0, 1.0, 1.000000173205118, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -10776,7 +10775,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.999931286242237, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.585786386896304, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -11708,7 +11707,7 @@
 			}
 , 			{
 				"box" : 				{
-					"addpoints" : [ 0.0, 1.0, 0, 1.0, 0.999862572483824, 0 ],
+					"addpoints" : [ 0.0, 1.0, 0, 1.0, -0.000000173205118, 0 ],
 					"domain" : 1.0,
 					"grid" : 3,
 					"gridstep_x" : 0.1,
@@ -12818,7 +12817,6 @@
 									}
 ,
 									"id" : "obj-209",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 4,
@@ -22426,119 +22424,119 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "drawLinearFunc.maxpat",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "weightSetup.maxpat",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "argVisualSetup.maxpat",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "threatLiveCalc.maxpat",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawAngleFunc.maxpat",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "drawAngleFuncNormal.maxpat",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroTank.txt",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroDPSsniper.txt",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroDPSnormal.txt",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroHealer.txt",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroSelect.maxpat",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroTankX.txt",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroDPSsniperX.txt",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroDPSnormalX.txt",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "heroHealerX.txt",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OW_scenario.jpg",
-				"bootpath" : "~/Desktop/_OW_threats",
-				"patcherrelativepath" : ".",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/_OW_threats",
+				"patcherrelativepath" : "../_OW_threats",
 				"type" : "JPEG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "delayOutput.maxpat",
-				"bootpath" : "~/Desktop/_OW_threats",
+				"bootpath" : "/Volumes/Disk/Petr/max_msp/MaxMSP_OW_Threats-master",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
